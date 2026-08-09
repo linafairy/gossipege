@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0A0A0B;
+    color: #E0D7C6;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+.editorial-grid-bg {
+  background-image: radial-gradient(#C5A059 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 12s linear infinite;
+}
+
+.editorial-gold-border {
+  border-color: rgba(197, 160, 89, 0.3);
+}
+
+.editorial-gold-text {
+  color: #C5A059;
+}
+

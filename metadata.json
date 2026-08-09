@@ -1,0 +1,6 @@
+{
+  "name": "Сплетница: ЕГЭ Пунктуация",
+  "description": "Интерактивный веб-квест по пунктуации ЕГЭ по русскому языку в стиле сериала Сплетница. 6 родовитых комнат особняка Upper East Side, герои, задания и стикеры.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
